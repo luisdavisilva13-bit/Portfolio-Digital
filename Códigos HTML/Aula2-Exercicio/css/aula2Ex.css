@@ -1,0 +1,38 @@
+p{
+    color: white;
+}
+
+.caixa-arredondada {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #888;
+    text-align: center;
+    background: linear-gradient(to bottom, #835fcb 1%, #4e12ae 17%, #835fcb 33%, #4e12ae 50%, #835fcb 67%, #4e12ae 85%, #8c48de 100%);
+
+}
+
+.circulo-flutuante {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px #555;
+    background: radial-gradient(ellipse at center, #ff1a00 0%, #820f00 10%, #820f00 45%, #ff1a00 50%, #820f00 55%, #820f00 90%, #ff1a00 100%);
+}
+
+.caixa {
+    position: relative;
+    left: 650px;
+}
+
+.p1 {
+    position: relative;
+    top: 45px;
+
+}
+
+.p2 {
+    position: relative;
+    top: 70px;
+}
